@@ -1,0 +1,76 @@
+{
+  "uid" : "bec8ea8a27215b77",
+  "name" : "Checks if list of pages is shown properly",
+  "fullName" : "HomePage tests.Checks if list of pages is shown properly",
+  "historyId" : "b7aba9cae8bb96560f24b6554397b6d8",
+  "time" : {
+    "start" : 1595925593108,
+    "stop" : 1595925598452,
+    "duration" : 5344
+  },
+  "description" : "List of pages description",
+  "descriptionHtml" : "<p>List of pages description</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true",
+  "statusTrace" : "AssertionError: Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true\n                    at Context.<anonymous> (C:\\Users\\diman\\Desktop\\InternetUITests\\test\\specs\\homePage.spec.js:29:21)\n                    at Context.executeSync (C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true",
+    "statusTrace" : "AssertionError: Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true\n                    at Context.<anonymous> (C:\\Users\\diman\\Desktop\\InternetUITests\\test\\specs\\homePage.spec.js:29:21)\n                    at Context.executeSync (C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3e2ab577021caf0a",
+      "name" : "Screenshot",
+      "source" : "3e2ab577021caf0a.png",
+      "type" : "image/png",
+      "size" : 106562
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks if list of pages is shown properly"
+  }, {
+    "name" : "package",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bec8ea8a27215b77.json",
+  "parameterValues" : [ "chrome" ]
+}

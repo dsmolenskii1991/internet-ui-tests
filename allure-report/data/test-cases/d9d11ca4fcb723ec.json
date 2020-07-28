@@ -1,0 +1,58 @@
+{
+  "uid" : "d9d11ca4fcb723ec",
+  "name" : "Checks Heading1",
+  "fullName" : "HomePage tests.Checks Heading1",
+  "historyId" : "c8723c0c0b1c305b1c467a3f039e3042",
+  "time" : {
+    "start" : 1595923521011,
+    "stop" : 1595923521442,
+    "duration" : 431
+  },
+  "description" : "какой-то description для теста",
+  "descriptionHtml" : "<p>какой-то description для теста</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Headings1 are not equal. \n                        *Expected: Welcome to the-internet. \n                        *Actual: Welcome to the-internet",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Headings1 are not equal. \n                        *Expected: Welcome to the-internet. \n                        *Actual: Welcome to the-internet\n                    at Context.<anonymous> (C:\\Users\\diman\\Desktop\\InternetUITests\\test\\specs\\homePage.spec.js:14:16)\n                    at Context.executeSync (C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks Heading1"
+  }, {
+    "name" : "package",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9d11ca4fcb723ec.json",
+  "parameterValues" : [ "chrome" ]
+}

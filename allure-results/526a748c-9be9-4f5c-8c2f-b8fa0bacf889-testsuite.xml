@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595923519125' stop='1595923521798'>
+    <name>HomePage tests</name>
+    <title>HomePage tests</title>
+    <test-cases>
+        <test-case start='1595923521011' status='failed' stop='1595923521442'>
+            <name>Checks Heading1</name>
+            <title>Checks Heading1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Headings1 are not equal. 
+                        *Expected: Welcome to the-internet. 
+                        *Actual: Welcome to the-internet</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Headings1 are not equal. 
+                        *Expected: Welcome to the-internet. 
+                        *Actual: Welcome to the-internet
+                    at Context.&lt;anonymous> (C:\Users\diman\Desktop\InternetUITests\test\specs\homePage.spec.js:14:16)
+                    at Context.executeSync (C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+            <description type='text'>какой-то description для теста</description>
+        </test-case>
+        <test-case start='1595923521443' status='failed' stop='1595923521798'>
+            <name>Checks Heading2</name>
+            <title>Checks Heading2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Headings1 are not equal. 
+                        *Expected: Available Examples. 
+                        *Actual: Available Examples</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Headings1 are not equal. 
+                        *Expected: Available Examples. 
+                        *Actual: Available Examples
+                    at Context.&lt;anonymous> (C:\Users\diman\Desktop\InternetUITests\test\specs\homePage.spec.js:20:16)
+                    at Context.executeSync (C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

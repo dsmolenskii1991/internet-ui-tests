@@ -1,0 +1,56 @@
+{
+  "uid" : "8b7e899af7911e79",
+  "name" : "Checks Heading1",
+  "fullName" : "HomePage tests.Checks Heading1",
+  "historyId" : "c8723c0c0b1c305b1c467a3f039e3042",
+  "time" : {
+    "start" : 1595923397243,
+    "stop" : 1595923397334,
+    "duration" : 91
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks Heading1"
+  }, {
+    "name" : "package",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b7e899af7911e79.json",
+  "parameterValues" : [ "chrome" ]
+}

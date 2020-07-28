@@ -1,0 +1,181 @@
+{
+  "uid" : "8763cf9980fee30d",
+  "name" : "Checks if list of pages is shown properly",
+  "fullName" : "HomePage tests.Checks if list of pages is shown properly",
+  "historyId" : "b7aba9cae8bb96560f24b6554397b6d8",
+  "time" : {
+    "start" : 1595928134215,
+    "stop" : 1595928134303,
+    "duration" : 88
+  },
+  "description" : "List of pages description",
+  "descriptionHtml" : "<p>List of pages description</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks if list of pages is shown properly"
+  }, {
+    "name" : "package",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95afb40c40d37ba9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595927931907,
+        "stop" : 1595927931989,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "28bf787ed52b65a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595927914444,
+        "stop" : 1595927914546,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "8a3b9d7e5abf232e",
+      "status" : "failed",
+      "statusDetails" : "Pages count are not equal: expected 44 to equal 43",
+      "time" : {
+        "start" : 1595926682041,
+        "stop" : 1595926682434,
+        "duration" : 393
+      }
+    }, {
+      "uid" : "68c3fe682b73a879",
+      "status" : "failed",
+      "statusDetails" : "expected 'Pages count are not equal' to equal undefined",
+      "time" : {
+        "start" : 1595926638607,
+        "stop" : 1595926639003,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "646022e11a9faac7",
+      "status" : "failed",
+      "statusDetails" : "\n                        Counts of pages are not equal.\n                        Expected: 44,\n                        Actual: 44\n                        : expected 44 to equal 43",
+      "time" : {
+        "start" : 1595926347286,
+        "stop" : 1595926352717,
+        "duration" : 5431
+      }
+    }, {
+      "uid" : "c7c0ada89a8eb1f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595926319399,
+        "stop" : 1595926324532,
+        "duration" : 5133
+      }
+    }, {
+      "uid" : "d9f3a3e6eaaa290e",
+      "status" : "failed",
+      "statusDetails" : "Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true",
+      "time" : {
+        "start" : 1595926181857,
+        "stop" : 1595926187188,
+        "duration" : 5331
+      }
+    }, {
+      "uid" : "bec8ea8a27215b77",
+      "status" : "failed",
+      "statusDetails" : "Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true",
+      "time" : {
+        "start" : 1595925593108,
+        "stop" : 1595925598452,
+        "duration" : 5344
+      }
+    }, {
+      "uid" : "7f577bf02597f5ee",
+      "status" : "failed",
+      "statusDetails" : "Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true",
+      "time" : {
+        "start" : 1595925557487,
+        "stop" : 1595925562829,
+        "duration" : 5342
+      }
+    }, {
+      "uid" : "b1f5666dbae22b30",
+      "status" : "failed",
+      "statusDetails" : "Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true",
+      "time" : {
+        "start" : 1595925264399,
+        "stop" : 1595925269701,
+        "duration" : 5302
+      }
+    }, {
+      "uid" : "b881147e6d97279e",
+      "status" : "failed",
+      "statusDetails" : "Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true",
+      "time" : {
+        "start" : 1595925113264,
+        "stop" : 1595925118571,
+        "duration" : 5307
+      }
+    }, {
+      "uid" : "dedb9d47b8a4c6e7",
+      "status" : "failed",
+      "statusDetails" : "Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true",
+      "time" : {
+        "start" : 1595925032875,
+        "stop" : 1595925033203,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "41f62f42db28188",
+      "status" : "failed",
+      "statusDetails" : "Pages list is not displayed: expected [Function: isPagesListDisplayed] to be true",
+      "time" : {
+        "start" : 1595924859616,
+        "stop" : 1595924859953,
+        "duration" : 337
+      }
+    }, {
+      "uid" : "777c49bc5603c56c",
+      "status" : "broken",
+      "statusDetails" : "assert.isTrue is not a function",
+      "time" : {
+        "start" : 1595924570143,
+        "stop" : 1595924570522,
+        "duration" : 379
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8763cf9980fee30d.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "a3cc15b183d8d925",
+  "name" : "Checks Heading2",
+  "fullName" : "HomePage tests.Checks Heading2",
+  "historyId" : "d9ec1d0c15919172a965093b0ff5f273",
+  "time" : {
+    "start" : 1595924570062,
+    "stop" : 1595924570142,
+    "duration" : 80
+  },
+  "description" : "Heading2 test description",
+  "descriptionHtml" : "<p>Heading2 test description</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks Heading2"
+  }, {
+    "name" : "package",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3cc15b183d8d925.json",
+  "parameterValues" : [ "chrome" ]
+}

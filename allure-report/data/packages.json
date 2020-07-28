@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "HomePage tests",
+    "children" : [ {
+      "name" : "Checks Heading1",
+      "uid" : "17f2367ffe1889af",
+      "parentUid" : "5e0942e49e97867b93680608637f4df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595928134113,
+        "stop" : 1595928134171,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checks Heading2",
+      "uid" : "8afb3b8a5e476ec5",
+      "parentUid" : "5e0942e49e97867b93680608637f4df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595928134171,
+        "stop" : 1595928134215,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checks if list of pages is shown properly",
+      "uid" : "8763cf9980fee30d",
+      "parentUid" : "5e0942e49e97867b93680608637f4df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595928134215,
+        "stop" : 1595928134303,
+        "duration" : 88
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "5e0942e49e97867b93680608637f4df0"
+  } ]
+}

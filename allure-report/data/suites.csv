@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 28 13:22:14 GMT+04:00 2020","Tue Jul 28 13:22:14 GMT+04:00 2020","58","","HomePage tests","","HomePage tests","Checks Heading1","Checks Heading1","Heading1 test description"
+"passed","Tue Jul 28 13:22:14 GMT+04:00 2020","Tue Jul 28 13:22:14 GMT+04:00 2020","44","","HomePage tests","","HomePage tests","Checks Heading2","Checks Heading2","Heading2 test description"
+"passed","Tue Jul 28 13:22:14 GMT+04:00 2020","Tue Jul 28 13:22:14 GMT+04:00 2020","88","","HomePage tests","","HomePage tests","Checks if list of pages is shown properly","Checks if list of pages is shown properly","List of pages description"

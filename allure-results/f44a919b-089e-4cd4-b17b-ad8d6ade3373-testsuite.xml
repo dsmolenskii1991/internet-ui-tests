@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595928132036' stop='1595928134304'>
+    <name>HomePage tests</name>
+    <title>HomePage tests</title>
+    <test-cases>
+        <test-case start='1595928134113' status='passed' stop='1595928134171'>
+            <name>Checks Heading1</name>
+            <title>Checks Heading1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <description type='text'>Heading1 test description</description>
+        </test-case>
+        <test-case start='1595928134171' status='passed' stop='1595928134215'>
+            <name>Checks Heading2</name>
+            <title>Checks Heading2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <description type='text'>Heading2 test description</description>
+        </test-case>
+        <test-case start='1595928134215' status='passed' stop='1595928134303'>
+            <name>Checks if list of pages is shown properly</name>
+            <title>Checks if list of pages is shown properly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <description type='text'>List of pages description</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

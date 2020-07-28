@@ -1,0 +1,76 @@
+{
+  "uid" : "73f99129465bd761",
+  "name" : "Checks Heading1",
+  "fullName" : "HomePage tests.Checks Heading1",
+  "historyId" : "c8723c0c0b1c305b1c467a3f039e3042",
+  "time" : {
+    "start" : 1595923624112,
+    "stop" : 1595923624595,
+    "duration" : 483
+  },
+  "description" : "какой-то description для теста",
+  "descriptionHtml" : "<p>какой-то description для теста</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Headings1 are not equal. \n                        *Expected: Welcome to the-internet. \n                        *Actual: Welcome to the-internet",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Headings1 are not equal. \n                        *Expected: Welcome to the-internet. \n                        *Actual: Welcome to the-internet\n                    at Context.<anonymous> (C:\\Users\\diman\\Desktop\\InternetUITests\\test\\specs\\homePage.spec.js:14:16)\n                    at Context.executeSync (C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Headings1 are not equal. \n                        *Expected: Welcome to the-internet. \n                        *Actual: Welcome to the-internet",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Headings1 are not equal. \n                        *Expected: Welcome to the-internet. \n                        *Actual: Welcome to the-internet\n                    at Context.<anonymous> (C:\\Users\\diman\\Desktop\\InternetUITests\\test\\specs\\homePage.spec.js:14:16)\n                    at Context.executeSync (C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a9f8a1003483191",
+      "name" : "Screenshot",
+      "source" : "5a9f8a1003483191.png",
+      "type" : "image/png",
+      "size" : 106562
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks Heading1"
+  }, {
+    "name" : "package",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73f99129465bd761.json",
+  "parameterValues" : [ "chrome" ]
+}

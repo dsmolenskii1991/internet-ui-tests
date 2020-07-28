@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "HomePage tests",
+    "children" : [ {
+      "name" : "Checks Heading1",
+      "uid" : "17f2367ffe1889af",
+      "parentUid" : "c6d1bbdf2ef3e84a37fbb3d6a845ce1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595928134113,
+        "stop" : 1595928134171,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checks Heading2",
+      "uid" : "8afb3b8a5e476ec5",
+      "parentUid" : "c6d1bbdf2ef3e84a37fbb3d6a845ce1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595928134171,
+        "stop" : 1595928134215,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checks if list of pages is shown properly",
+      "uid" : "8763cf9980fee30d",
+      "parentUid" : "c6d1bbdf2ef3e84a37fbb3d6a845ce1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595928134215,
+        "stop" : 1595928134303,
+        "duration" : 88
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c6d1bbdf2ef3e84a37fbb3d6a845ce1c"
+  } ]
+}

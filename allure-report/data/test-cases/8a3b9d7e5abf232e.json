@@ -1,0 +1,76 @@
+{
+  "uid" : "8a3b9d7e5abf232e",
+  "name" : "Checks if list of pages is shown properly",
+  "fullName" : "HomePage tests.Checks if list of pages is shown properly",
+  "historyId" : "b7aba9cae8bb96560f24b6554397b6d8",
+  "time" : {
+    "start" : 1595926682041,
+    "stop" : 1595926682434,
+    "duration" : 393
+  },
+  "description" : "List of pages description",
+  "descriptionHtml" : "<p>List of pages description</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Pages count are not equal: expected 44 to equal 43",
+  "statusTrace" : "AssertionError: Pages count are not equal: expected 44 to equal 43\n                    at Context.<anonymous> (C:\\Users\\diman\\Desktop\\InternetUITests\\test\\specs\\homePage.spec.js:35:21)\n                    at Context.executeSync (C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Pages count are not equal: expected 44 to equal 43",
+    "statusTrace" : "AssertionError: Pages count are not equal: expected 44 to equal 43\n                    at Context.<anonymous> (C:\\Users\\diman\\Desktop\\InternetUITests\\test\\specs\\homePage.spec.js:35:21)\n                    at Context.executeSync (C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\diman\\Desktop\\InternetUITests\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7eb742a56b0666dd",
+      "name" : "Screenshot",
+      "source" : "7eb742a56b0666dd.png",
+      "type" : "image/png",
+      "size" : 106562
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks if list of pages is shown properly"
+  }, {
+    "name" : "package",
+    "value" : "HomePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a3b9d7e5abf232e.json",
+  "parameterValues" : [ "chrome" ]
+}
