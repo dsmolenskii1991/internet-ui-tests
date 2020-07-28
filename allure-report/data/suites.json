@@ -2,47 +2,60 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "HomePage tests",
+    "name" : "AddRemovePage tests",
     "children" : [ {
-      "name" : "Checks Heading1",
-      "uid" : "17f2367ffe1889af",
-      "parentUid" : "c6d1bbdf2ef3e84a37fbb3d6a845ce1c",
+      "name" : "Checks if correct header is shown",
+      "uid" : "c0a145804d4f754f",
+      "parentUid" : "03a2d10b304c12ed15ac3b4bbfcce623",
       "status" : "passed",
       "time" : {
-        "start" : 1595928134113,
-        "stop" : 1595928134171,
-        "duration" : 58
+        "start" : 1595930943691,
+        "stop" : 1595930943756,
+        "duration" : 65
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Checks Heading2",
-      "uid" : "8afb3b8a5e476ec5",
-      "parentUid" : "c6d1bbdf2ef3e84a37fbb3d6a845ce1c",
+      "name" : "Checks if Add Element button is visible",
+      "uid" : "3c42d48836781faf",
+      "parentUid" : "03a2d10b304c12ed15ac3b4bbfcce623",
       "status" : "passed",
       "time" : {
-        "start" : 1595928134171,
-        "stop" : 1595928134215,
-        "duration" : 44
+        "start" : 1595930943757,
+        "stop" : 1595930943818,
+        "duration" : 61
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Checks if list of pages is shown properly",
-      "uid" : "8763cf9980fee30d",
-      "parentUid" : "c6d1bbdf2ef3e84a37fbb3d6a845ce1c",
+      "name" : "Checks whether proper number of Delete buttons appear when clicking Add Button several times",
+      "uid" : "36c858ee69b94dbe",
+      "parentUid" : "03a2d10b304c12ed15ac3b4bbfcce623",
       "status" : "passed",
       "time" : {
-        "start" : 1595928134215,
-        "stop" : 1595928134303,
-        "duration" : 88
+        "start" : 1595930943818,
+        "stop" : 1595930944001,
+        "duration" : 183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Checks whether proper number of Delete buttons are shown after clicking Delete button",
+      "uid" : "22e71e7430e7fca7",
+      "parentUid" : "03a2d10b304c12ed15ac3b4bbfcce623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595930944002,
+        "stop" : 1595930944172,
+        "duration" : 170
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "c6d1bbdf2ef3e84a37fbb3d6a845ce1c"
+    "uid" : "03a2d10b304c12ed15ac3b4bbfcce623"
   } ]
 }

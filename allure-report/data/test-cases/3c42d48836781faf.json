@@ -1,15 +1,15 @@
 {
-  "uid" : "6cfbec872f245b91",
-  "name" : "Checks Heading2",
-  "fullName" : "HomePage tests.Checks Heading2",
-  "historyId" : "d9ec1d0c15919172a965093b0ff5f273",
+  "uid" : "3c42d48836781faf",
+  "name" : "Checks if Add Element button is visible",
+  "fullName" : "AddRemovePage tests.Checks if Add Element button is visible",
+  "historyId" : "3a0558247064b4b8fd2ec35b0cf4aaa6",
   "time" : {
-    "start" : 1595926347229,
-    "stop" : 1595926347286,
-    "duration" : 57
+    "start" : 1595930943757,
+    "stop" : 1595930943818,
+    "duration" : 61
   },
-  "description" : "Heading2 test description",
-  "descriptionHtml" : "<p>Heading2 test description</p>\n",
+  "description" : "",
+  "descriptionHtml" : "",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -26,16 +26,16 @@
     "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "HomePage tests"
+    "value" : "AddRemovePage tests"
   }, {
     "name" : "testClass",
-    "value" : "HomePage tests"
+    "value" : "AddRemovePage tests"
   }, {
     "name" : "testMethod",
-    "value" : "Checks Heading2"
+    "value" : "Checks if Add Element button is visible"
   }, {
     "name" : "package",
-    "value" : "HomePage tests"
+    "value" : "AddRemovePage tests"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -45,12 +45,14 @@
     "value" : "chrome"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6cfbec872f245b91.json",
+  "source" : "3c42d48836781faf.json",
   "parameterValues" : [ "chrome" ]
 }

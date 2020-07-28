@@ -21,6 +21,7 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
+        './test/specs/homePage.spec.js'
         // 'path/to/excluded/files'
     ],
     //

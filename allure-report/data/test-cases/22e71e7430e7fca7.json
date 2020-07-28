@@ -1,12 +1,12 @@
 {
-  "uid" : "62c91467776414ee",
-  "name" : "Checks Heading2",
-  "fullName" : "HomePage tests.Checks Heading2",
-  "historyId" : "d9ec1d0c15919172a965093b0ff5f273",
+  "uid" : "22e71e7430e7fca7",
+  "name" : "Checks whether proper number of Delete buttons are shown after clicking Delete button",
+  "fullName" : "AddRemovePage tests.Checks whether proper number of Delete buttons are shown after clicking Delete button",
+  "historyId" : "a3d3440b68ae9d0526bdfdd347bd73c7",
   "time" : {
-    "start" : 1595923372718,
-    "stop" : 1595923372790,
-    "duration" : 72
+    "start" : 1595930944002,
+    "stop" : 1595930944172,
+    "duration" : 170
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -26,16 +26,16 @@
     "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "HomePage tests"
+    "value" : "AddRemovePage tests"
   }, {
     "name" : "testClass",
-    "value" : "HomePage tests"
+    "value" : "AddRemovePage tests"
   }, {
     "name" : "testMethod",
-    "value" : "Checks Heading2"
+    "value" : "Checks whether proper number of Delete buttons are shown after clicking Delete button"
   }, {
     "name" : "package",
-    "value" : "HomePage tests"
+    "value" : "AddRemovePage tests"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -45,12 +45,14 @@
     "value" : "chrome"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "62c91467776414ee.json",
+  "source" : "22e71e7430e7fca7.json",
   "parameterValues" : [ "chrome" ]
 }

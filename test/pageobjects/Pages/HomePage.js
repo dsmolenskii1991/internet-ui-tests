@@ -23,7 +23,6 @@ class HomePage extends BasePage {
         return $('//ul').isDisplayed();
 
     }
-
 }
 
 module.exports = new HomePage();
