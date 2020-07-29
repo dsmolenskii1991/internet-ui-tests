@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596006596236' stop='1596006599546'>
+    <name>TablesPage test</name>
+    <title>TablesPage test</title>
+    <test-cases>
+        <test-case start='1596006598226' status='failed' stop='1596006598833'>
+            <name>Checks table headers</name>
+            <title>Checks table headers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7f69d3e9-7c4b-47ba-9289-48859641b5fe-attachment.png' type='image/png' size='141762'/>
+            </attachments>
+            <failure>
+                <message>Headers are not equal: expected [ Array(6) ] to equal [ Array(6) ]</message>
+                <stack-trace>AssertionError: Headers are not equal: expected [ Array(6) ] to equal [ Array(6) ]
+                    at Context.&lt;anonymous> (C:\Users\diman\Desktop\InternetUITests\test\specs\tablesPage.spec.js:14:21)
+                    at Context.executeSync (C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596006598834' status='failed' stop='1596006599159'>
+            <name>Checks last names in first table default sorting</name>
+            <title>Checks last names in first table default sorting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='81b778db-c5d8-49fe-a281-1076fe26ca31-attachment.png' type='image/png' size='141762'/>
+            </attachments>
+            <failure>
+                <message>Last names are not equal: expected undefined to equal [ 'Smith', 'Doe', 'Conway', 'Bach' ]</message>
+                <stack-trace>AssertionError: Last names are not equal: expected undefined to equal [ 'Smith', 'Doe', 'Conway', 'Bach' ]
+                    at Context.&lt;anonymous> (C:\Users\diman\Desktop\InternetUITests\test\specs\tablesPage.spec.js:19:21)
+                    at Context.executeSync (C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596006599159' status='failed' stop='1596006599546'>
+            <name>Sorts first table by last name and checks sorting</name>
+            <title>Sorts first table by last name and checks sorting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c3e690b0-f3cc-4364-9b41-cc7de4f2ae52-attachment.png' type='image/png' size='141951'/>
+            </attachments>
+            <failure>
+                <message>Last names are not equal after sorting: expected undefined to equal [ 'Bach', 'Conway', 'Doe', 'Smith' ]</message>
+                <stack-trace>AssertionError: Last names are not equal after sorting: expected undefined to equal [ 'Bach', 'Conway', 'Doe', 'Smith' ]
+                    at Context.&lt;anonymous> (C:\Users\diman\Desktop\InternetUITests\test\specs\tablesPage.spec.js:25:21)
+                    at Context.executeSync (C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

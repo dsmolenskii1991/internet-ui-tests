@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596009955579' stop='1596009959873'>
+    <name>TablesPage test</name>
+    <title>TablesPage test</title>
+    <test-cases>
+        <test-case start='1596009959234' status='passed' stop='1596009959393'>
+            <name>Checks last names in first table default sorting</name>
+            <title>Checks last names in first table default sorting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1596009959394' status='broken' stop='1596009959872'>
+            <name>Sorts first table by last name and checks sorting</name>
+            <title>Sorts first table by last name and checks sorting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a54ab4d6-9dee-4a0b-8f4b-9a5c2ce453f2-attachment.png' type='image/png' size='141951'/>
+            </attachments>
+            <failure>
+                <message>TablesPage.table1LastNamesList is not a function</message>
+                <stack-trace>TypeError: TablesPage.table1LastNamesList is not a function
+                    at Context.&lt;anonymous> (C:\Users\diman\Desktop\InternetUITests\test\specs\tablesPage.spec.js:29:38)
+                    at Context.executeSync (C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596010346968' stop='1596010354289'>
+    <name>TablesPage test</name>
+    <title>TablesPage test</title>
+    <test-cases>
+        <test-case start='1596010353991' status='passed' stop='1596010354136'>
+            <name>Checks last names in first table default sorting</name>
+            <title>Checks last names in first table default sorting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1596010354136' status='passed' stop='1596010354288'>
+            <name>Sorts first table by last name and checks sorting</name>
+            <title>Sorts first table by last name and checks sorting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

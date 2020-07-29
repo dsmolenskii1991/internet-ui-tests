@@ -21,7 +21,8 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
-        './test/specs/homePage.spec.js'
+        './test/specs/homePage.spec.js',
+        './test/specs/addRemovePage.spec.js'
         // 'path/to/excluded/files'
     ],
     //
@@ -142,7 +143,7 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 600000
     },
     //
     // =====

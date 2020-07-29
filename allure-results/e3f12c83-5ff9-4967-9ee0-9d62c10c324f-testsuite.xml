@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596010301587' stop='1596010305862'>
+    <name>TablesPage test</name>
+    <title>TablesPage test</title>
+    <test-cases>
+        <test-case start='1596010304864' status='broken' stop='1596010305376'>
+            <name>Checks last names in first table default sorting</name>
+            <title>Checks last names in first table default sorting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2ed65d58-a658-486c-9919-800860577fbe-attachment.png' type='image/png' size='141762'/>
+            </attachments>
+            <failure>
+                <message>TablesPage.table1lastNamesList is not a function</message>
+                <stack-trace>TypeError: TablesPage.table1lastNamesList is not a function
+                    at Context.&lt;anonymous> (C:\Users\diman\Desktop\InternetUITests\test\specs\tablesPage.spec.js:23:42)
+                    at Context.executeSync (C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596010305377' status='broken' stop='1596010305861'>
+            <name>Sorts first table by last name and checks sorting</name>
+            <title>Sorts first table by last name and checks sorting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='08ede9d5-0ae7-47c6-9e97-6b56d661afe9-attachment.png' type='image/png' size='141951'/>
+            </attachments>
+            <failure>
+                <message>TablesPage.table1lastNamesList is not a function</message>
+                <stack-trace>TypeError: TablesPage.table1lastNamesList is not a function
+                    at Context.&lt;anonymous> (C:\Users\diman\Desktop\InternetUITests\test\specs\tablesPage.spec.js:29:42)
+                    at Context.executeSync (C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\diman\Desktop\InternetUITests\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
