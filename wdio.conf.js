@@ -133,7 +133,11 @@ exports.config = {
             disableWebdriverStepsReporting: true,
             disableWebdriverScreenshotsReporting: false,
             disableMochaHooks: true,
-        }]
+        }],
+
+        ['junit', {
+            outputDir: './'
+        }],
     ],
 
 
