@@ -136,7 +136,10 @@ exports.config = {
         }],
 */
         ['junit', {
-            outputDir: './jUnitReports'
+            outputDir: './',
+            outputFileFormat: function(options) { // optional
+                return `results-${options.cid}.${options.capabilities}.xml`
+            }
         }],
     ],
 
