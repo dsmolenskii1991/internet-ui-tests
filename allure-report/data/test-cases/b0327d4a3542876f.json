@@ -1,0 +1,58 @@
+{
+  "uid" : "b0327d4a3542876f",
+  "name" : "Checks if correct header is shown",
+  "fullName" : "AddRemovePage tests.Checks if correct header is shown",
+  "historyId" : "f4071ffb071b5d8492143ff3e95421f0",
+  "time" : {
+    "start" : 1596444029249,
+    "stop" : 1596444029298,
+    "duration" : 49
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "AddRemovePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "AddRemovePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks if correct header is shown"
+  }, {
+    "name" : "package",
+    "value" : "AddRemovePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0327d4a3542876f.json",
+  "parameterValues" : [ "chrome" ]
+}

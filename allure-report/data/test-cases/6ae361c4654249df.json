@@ -1,0 +1,58 @@
+{
+  "uid" : "6ae361c4654249df",
+  "name" : "Checks whether proper number of Delete buttons appear when clicking Add Button several times",
+  "fullName" : "AddRemovePage tests.Checks whether proper number of Delete buttons appear when clicking Add Button several times",
+  "historyId" : "b0f5cd9f1ddd3d869224a2f2e39a598c",
+  "time" : {
+    "start" : 1596444029338,
+    "stop" : 1596444029510,
+    "duration" : 172
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "AddRemovePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "AddRemovePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks whether proper number of Delete buttons appear when clicking Add Button several times"
+  }, {
+    "name" : "package",
+    "value" : "AddRemovePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ae361c4654249df.json",
+  "parameterValues" : [ "chrome" ]
+}

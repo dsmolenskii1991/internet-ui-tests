@@ -1,0 +1,111 @@
+[ {
+  "uid" : "628214b09e0eea48",
+  "name" : "Checks person 1 from Table 1 data",
+  "time" : {
+    "start" : 1596444027438,
+    "stop" : 1596444028314,
+    "duration" : 876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4e368ead58f2c4a",
+  "name" : "Checks if list of pages is shown properly",
+  "time" : {
+    "start" : 1596444027370,
+    "stop" : 1596444027566,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10d4bf188d06a8f4",
+  "name" : "Sorts first table by last name and checks sorting",
+  "time" : {
+    "start" : 1596444028469,
+    "stop" : 1596444028633,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80ee5838826e85bf",
+  "name" : "Checks table headers",
+  "time" : {
+    "start" : 1596444027156,
+    "stop" : 1596444027437,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f07b1e3ba1acc8e",
+  "name" : "Checks Heading2",
+  "time" : {
+    "start" : 1596444027295,
+    "stop" : 1596444027369,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee496f406dbf328d",
+  "name" : "Checks Heading1",
+  "time" : {
+    "start" : 1596444027120,
+    "stop" : 1596444027294,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2633b304bc2ab226",
+  "name" : "Checks whether proper number of Delete buttons are shown after clicking Delete button",
+  "time" : {
+    "start" : 1596444029511,
+    "stop" : 1596444029705,
+    "duration" : 194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50bde97738324bd2",
+  "name" : "Checks if Add Element button is visible",
+  "time" : {
+    "start" : 1596444029299,
+    "stop" : 1596444029338,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c3936339b704454",
+  "name" : "Checks last names in first table default sorting",
+  "time" : {
+    "start" : 1596444028315,
+    "stop" : 1596444028469,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ae361c4654249df",
+  "name" : "Checks whether proper number of Delete buttons appear when clicking Add Button several times",
+  "time" : {
+    "start" : 1596444029338,
+    "stop" : 1596444029510,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0327d4a3542876f",
+  "name" : "Checks if correct header is shown",
+  "time" : {
+    "start" : 1596444029249,
+    "stop" : 1596444029298,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

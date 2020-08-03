@@ -35,6 +35,17 @@ class TablesPage extends BasePage {
         return this.Table1.tableHeaders;
     };
 
+    getPersonByNumber(personNumber) {
+        let Person = {};
+        Person.surname = this.Table1.getCellValue(personNumber, 1);
+        Person.firstName = this.Table1.getCellValue(personNumber, 2);
+        Person.email = this.Table1.getCellValue(personNumber, 3);
+        Person.due = this.Table1.getCellValue(personNumber, 4);
+        Person.webSite = this.Table1.getCellValue(personNumber, 5);
+        return Person;
+
+    }
+
 }
 
 module.exports = new TablesPage();

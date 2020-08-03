@@ -1,0 +1,58 @@
+{
+  "uid" : "2633b304bc2ab226",
+  "name" : "Checks whether proper number of Delete buttons are shown after clicking Delete button",
+  "fullName" : "AddRemovePage tests.Checks whether proper number of Delete buttons are shown after clicking Delete button",
+  "historyId" : "a3d3440b68ae9d0526bdfdd347bd73c7",
+  "time" : {
+    "start" : 1596444029511,
+    "stop" : 1596444029705,
+    "duration" : 194
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "AddRemovePage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "AddRemovePage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks whether proper number of Delete buttons are shown after clicking Delete button"
+  }, {
+    "name" : "package",
+    "value" : "AddRemovePage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2633b304bc2ab226.json",
+  "parameterValues" : [ "chrome" ]
+}

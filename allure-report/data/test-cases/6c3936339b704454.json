@@ -1,0 +1,58 @@
+{
+  "uid" : "6c3936339b704454",
+  "name" : "Checks last names in first table default sorting",
+  "fullName" : "TablesPage tests.Checks last names in first table default sorting",
+  "historyId" : "273810010d7cb13db824a25c9e35f22d",
+  "time" : {
+    "start" : 1596444028315,
+    "stop" : 1596444028469,
+    "duration" : 154
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "TablesPage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "TablesPage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks last names in first table default sorting"
+  }, {
+    "name" : "package",
+    "value" : "TablesPage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c3936339b704454.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "628214b09e0eea48",
+  "name" : "Checks person 1 from Table 1 data",
+  "fullName" : "TablesPage tests.Checks person 1 from Table 1 data",
+  "historyId" : "197690394cc75880c7dfa0f52a2658b8",
+  "time" : {
+    "start" : 1596444027438,
+    "stop" : 1596444028314,
+    "duration" : 876
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "TablesPage tests"
+  }, {
+    "name" : "testClass",
+    "value" : "TablesPage tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checks person 1 from Table 1 data"
+  }, {
+    "name" : "package",
+    "value" : "TablesPage tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "628214b09e0eea48.json",
+  "parameterValues" : [ "chrome" ]
+}
