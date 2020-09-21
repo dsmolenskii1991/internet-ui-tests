@@ -4,6 +4,7 @@ module.exports = class Table {
         this.tableXpath = tableXpath;
     };
 
+    //Массив заголовков столбцов в таблице
     get tableHeaders() {
         let tableHeaders = [];
         let tableHeaderElements = $$(`${this.tableXpath}/thead/tr/th`);
@@ -13,15 +14,16 @@ module.exports = class Table {
         return tableHeaders;
     }
 
-    getCellValue(x, y) {
+    //Значение ячейки таблицы по координатам
+    cellValue(x, y) {
         return $(`${this.tableXpath}/tbody/tr[${x}]/td[${y}]`).getText();
 
     };
 
+    //Сортировка таблицы по наименованию столбца
     sortTable(headerToSort) {
-        return $(`${this.tableXpath}/thead/tr/th[${headerToSort}]`).click();
+        $(`${this.tableXpath}/thead/tr/th[${headerToSort}]`).click();
     }
-
 
 
 }

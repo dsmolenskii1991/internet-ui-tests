@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="TablesPage_tests" timestamp="2020-09-21T16:30:16" time="3.121" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="TablesPage tests"/>
+      <property name="capabilities" value="chrome.85_0_4183_102.windows"/>
+      <property name="file" value=".\test\specs\tablesPage.spec.js"/>
+    </properties>
+    <testcase classname="chrome.85_0_4183_102.windows.TablesPage_tests" name="Checks_table_headers" time="0.13">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/elements - {"using":"xpath","value":"//table[@id = 'table1']/thead/tr/th"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/thead/tr/th"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/4b8bc4e9-4ccc-4a83-b1f8-3ddd660fb5f6/text - {}
+RESULT: {}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/006839b8-c9e8-4fbf-9ea4-1324db2b21dc/text - {}
+RESULT: {}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/792027f1-b273-4212-93d3-379618de9c35/text - {}
+RESULT: {}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7b7a37c9-1e42-45d6-b7ef-05c66e0ff04f/text - {}
+RESULT: {}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7da7016e-5f3b-46ef-a9dd-f54a0955fd60/text - {}
+RESULT: {}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/0c702186-80a7-42a9-862a-c5ee71c65cde/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_102.windows.TablesPage_tests" name="Checks_person_1_from_Table_1_data" time="0.756">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7b8890f5-05db-4253-bca7-286f436b54ae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/c22cb500-f2ae-4502-b41d-bcf5954287cc/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/a23201b7-4658-4ff3-ac7c-a0846d532f0b/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/ad71b23f-c7e1-486d-aecf-9febf8020aae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/80b3cc2e-cece-4c40-b852-daaded52a163/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7b8890f5-05db-4253-bca7-286f436b54ae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/c22cb500-f2ae-4502-b41d-bcf5954287cc/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/a23201b7-4658-4ff3-ac7c-a0846d532f0b/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/ad71b23f-c7e1-486d-aecf-9febf8020aae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/80b3cc2e-cece-4c40-b852-daaded52a163/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7b8890f5-05db-4253-bca7-286f436b54ae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/c22cb500-f2ae-4502-b41d-bcf5954287cc/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/a23201b7-4658-4ff3-ac7c-a0846d532f0b/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/ad71b23f-c7e1-486d-aecf-9febf8020aae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/80b3cc2e-cece-4c40-b852-daaded52a163/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7b8890f5-05db-4253-bca7-286f436b54ae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/c22cb500-f2ae-4502-b41d-bcf5954287cc/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/a23201b7-4658-4ff3-ac7c-a0846d532f0b/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/ad71b23f-c7e1-486d-aecf-9febf8020aae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/80b3cc2e-cece-4c40-b852-daaded52a163/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7b8890f5-05db-4253-bca7-286f436b54ae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[2]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/c22cb500-f2ae-4502-b41d-bcf5954287cc/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[3]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/a23201b7-4658-4ff3-ac7c-a0846d532f0b/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[4]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/ad71b23f-c7e1-486d-aecf-9febf8020aae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[5]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/80b3cc2e-cece-4c40-b852-daaded52a163/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_102.windows.TablesPage_tests" name="Checks_last_names_in_first_table_default_sorting" time="0.108">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7b8890f5-05db-4253-bca7-286f436b54ae/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[2]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[2]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/01ef21d5-76b8-44c7-a0fa-c91bb7186116/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[3]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[3]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/e63b518a-4951-4f0c-b25d-c8f1afe061fc/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[4]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[4]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7aa91e33-fa0c-4587-bcdd-50785da5580f/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_102.windows.TablesPage_tests" name="Sorts_first_table_by_last_name_and_checks_sorting" time="0.14">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/thead/tr/th[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/thead/tr/th[1]"}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element/4b8bc4e9-4ccc-4a83-b1f8-3ddd660fb5f6/click - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[1]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/01ef21d5-76b8-44c7-a0fa-c91bb7186116/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[2]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[2]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7aa91e33-fa0c-4587-bcdd-50785da5580f/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[3]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[3]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/e63b518a-4951-4f0c-b25d-c8f1afe061fc/text - {}
+RESULT: {}
+COMMAND: POST /session/3b20bfd46653217c5f30b615436f30c5/element - {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[4]/td[1]"}
+RESULT: {"using":"xpath","value":"//table[@id = 'table1']/tbody/tr[4]/td[1]"}
+COMMAND: GET /session/3b20bfd46653217c5f30b615436f30c5/element/7b8890f5-05db-4253-bca7-286f436b54ae/text - {}
+RESULT: {}
+COMMAND: DELETE /session/3b20bfd46653217c5f30b615436f30c5 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -23,7 +23,6 @@ exports.config = {
     exclude: [
         // './test/specs/homePage.spec.js',
         //  './test/specs/addRemovePage.spec.js'
-        // 'path/to/excluded/files'
     ],
     //
     // ============
@@ -95,7 +94,7 @@ exports.config = {
     baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 20000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -150,7 +149,7 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 600000
+        timeout: 40000
     },
     //
     // =====

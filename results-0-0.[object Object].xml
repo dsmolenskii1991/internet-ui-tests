@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="AddRemovePage_tests" timestamp="2020-09-21T16:30:15" time="8.85" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="AddRemovePage tests"/>
+      <property name="capabilities" value="chrome.85_0_4183_102.windows"/>
+      <property name="file" value=".\test\specs\addRemovePage.spec.js"/>
+    </properties>
+    <testcase classname="chrome.85_0_4183_102.windows.AddRemovePage_tests" name="Checks_if_correct_header_is_shown" time="0.087">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element - {"using":"xpath","value":"//h3"}
+RESULT: {"using":"xpath","value":"//h3"}
+COMMAND: GET /session/9e42870cadbcf4ceeba786ef51d1ef71/element/737e81f4-0d54-4341-b431-0c8674363c49/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_102.windows.AddRemovePage_tests" name="Checks_if_Add_Element_button_is_visible" time="0.036">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element - {"using":"xpath","value":"//button[@onclick = 'addElement()']"}
+RESULT: {"using":"xpath","value":"//button[@onclick = 'addElement()']"}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/execute/sync - {"script":"return (function isElementDisplayed(element) {\n  function nodeIsElement(node) {\n    if (!node) {\n      return false;\n    }\n\n    switch (node.nodeType) {\n      case Node.ELEMENT_NODE:\n      case Node.D ... (4720 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b899ac51-82d9-4bae-b484-6071fc425ba2","ELEMENT":"b899ac51-82d9-4bae-b484-6071fc425ba2"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n  function nodeIsElement(node) {\n    if (!node) {\n      return false;\n    }\n\n    switch (node.nodeType) {\n      case Node.ELEMENT_NODE:\n      case Node.D ... (4720 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b899ac51-82d9-4bae-b484-6071fc425ba2","ELEMENT":"b899ac51-82d9-4bae-b484-6071fc425ba2"}]}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_102.windows.AddRemovePage_tests" name="Checks_whether_proper_number_of_Delete_buttons_appear_when_clicking_Add_Button_several_times" time="0.166">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element - {"using":"xpath","value":"//button[@onclick = 'addElement()']"}
+RESULT: {"using":"xpath","value":"//button[@onclick = 'addElement()']"}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element/b899ac51-82d9-4bae-b484-6071fc425ba2/click - {}
+RESULT: {}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element - {"using":"xpath","value":"//button[@onclick = 'addElement()']"}
+RESULT: {"using":"xpath","value":"//button[@onclick = 'addElement()']"}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element/b899ac51-82d9-4bae-b484-6071fc425ba2/click - {}
+RESULT: {}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element - {"using":"xpath","value":"//button[@onclick = 'addElement()']"}
+RESULT: {"using":"xpath","value":"//button[@onclick = 'addElement()']"}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element/b899ac51-82d9-4bae-b484-6071fc425ba2/click - {}
+RESULT: {}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/elements - {"using":"xpath","value":"//div[@id = 'elements']/button"}
+RESULT: {"using":"xpath","value":"//div[@id = 'elements']/button"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_102.windows.AddRemovePage_tests" name="Checks_whether_proper_number_of_Delete_buttons_are_shown_after_clicking_Delete_button" time="5.222">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element - {"using":"xpath","value":"//button[@class= 'added-manually'][3]"}
+RESULT: {"using":"xpath","value":"//button[@class= 'added-manually'][3]"}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element/a586e89c-e52b-4ac6-9af2-5cfca207543d/click - {}
+RESULT: {}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/elements - {"using":"xpath","value":"//div[@id = 'elements']/button"}
+RESULT: {"using":"xpath","value":"//div[@id = 'elements']/button"}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element - {"using":"xpath","value":"//button[@class= 'added-manually'][2]"}
+RESULT: {"using":"xpath","value":"//button[@class= 'added-manually'][2]"}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element/a586e89c-e52b-4ac6-9af2-5cfca207543d/click - {}
+RESULT: {}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/elements - {"using":"xpath","value":"//div[@id = 'elements']/button"}
+RESULT: {"using":"xpath","value":"//div[@id = 'elements']/button"}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element - {"using":"xpath","value":"//button[@class= 'added-manually'][1]"}
+RESULT: {"using":"xpath","value":"//button[@class= 'added-manually'][1]"}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/element/a586e89c-e52b-4ac6-9af2-5cfca207543d/click - {}
+RESULT: {}
+COMMAND: POST /session/9e42870cadbcf4ceeba786ef51d1ef71/elements - {"using":"xpath","value":"//div[@id = 'elements']/button"}
+RESULT: {"using":"xpath","value":"//div[@id = 'elements']/button"}
+COMMAND: DELETE /session/9e42870cadbcf4ceeba786ef51d1ef71 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

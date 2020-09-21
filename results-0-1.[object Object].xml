@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="HomePage_tests" timestamp="2020-09-21T16:30:16" time="2.456" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="HomePage tests"/>
+      <property name="capabilities" value="chrome.85_0_4183_102.windows"/>
+      <property name="file" value=".\test\specs\homePage.spec.js"/>
+    </properties>
+    <testcase classname="chrome.85_0_4183_102.windows.HomePage_tests" name="Checks_Heading1" time="0.069">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/ae0e0193fc376dbd3bf79d6ab3cc6839/element - {"using":"xpath","value":"//h1"}
+RESULT: {"using":"xpath","value":"//h1"}
+COMMAND: GET /session/ae0e0193fc376dbd3bf79d6ab3cc6839/element/cd9a560a-7c24-4e60-a19e-1ac74c46abe7/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_102.windows.HomePage_tests" name="Checks_Heading2" time="0.044">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/ae0e0193fc376dbd3bf79d6ab3cc6839/element - {"using":"xpath","value":"//h2"}
+RESULT: {"using":"xpath","value":"//h2"}
+COMMAND: GET /session/ae0e0193fc376dbd3bf79d6ab3cc6839/element/05378ff3-944f-4951-99d0-f057ba5ad8e3/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_102.windows.HomePage_tests" name="Checks_if_list_of_pages_is_shown_properly" time="0.099">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/ae0e0193fc376dbd3bf79d6ab3cc6839/element - {"using":"xpath","value":"//ul"}
+RESULT: {"using":"xpath","value":"//ul"}
+COMMAND: POST /session/ae0e0193fc376dbd3bf79d6ab3cc6839/execute/sync - {"script":"return (function isElementDisplayed(element) {\n  function nodeIsElement(node) {\n    if (!node) {\n      return false;\n    }\n\n    switch (node.nodeType) {\n      case Node.ELEMENT_NODE:\n      case Node.D ... (4720 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0516bd7b-5358-48d0-bb02-fc5f71be6c73","ELEMENT":"0516bd7b-5358-48d0-bb02-fc5f71be6c73"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n  function nodeIsElement(node) {\n    if (!node) {\n      return false;\n    }\n\n    switch (node.nodeType) {\n      case Node.ELEMENT_NODE:\n      case Node.D ... (4720 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0516bd7b-5358-48d0-bb02-fc5f71be6c73","ELEMENT":"0516bd7b-5358-48d0-bb02-fc5f71be6c73"}]}
+COMMAND: POST /session/ae0e0193fc376dbd3bf79d6ab3cc6839/elements - {"using":"xpath","value":"//li"}
+RESULT: {"using":"xpath","value":"//li"}
+COMMAND: DELETE /session/ae0e0193fc376dbd3bf79d6ab3cc6839 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
